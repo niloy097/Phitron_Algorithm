@@ -7,7 +7,6 @@ int main()
 
     vector<int> v = {1, 1, 1, 2, 2, 2, 3, 4, 5, 5};
     vector<int> uni;
-    v.resi
     int i = 0;
     int j = 1;
     while(j < v.size())
