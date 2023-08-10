@@ -1,0 +1,25 @@
+Depth of Node 1 : 0
+Depth of Node 2 : 1
+Depth of Node 3 : 1
+Depth of Node 4 : 2
+Depth of Node 5 : 2
+Depth of Node 6 : 3
+Depth of Node 7 : 3
+Depth of Node 8 : 4
+Depth of Node 9 : 2
+Depth of Node 10 : 1
+Depth of Node 11 : 2
+Depth of Node 12 : 2
+
+Hight of Node 1 : 4
+Hight of Node 2 : 3
+Hight of Node 3 : 1
+Hight of Node 4 : 0
+Hight of Node 5 : 2
+Hight of Node 6 : 1
+Hight of Node 7 : 0
+Hight of Node 8 : 0
+Hight of Node 9 : 0
+Hight of Node 10 : 1
+Hight of Node 11 : 0
+Hight of Node 12 : 0
