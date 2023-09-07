@@ -1,0 +1,3 @@
+Cost 6
+Path printing 
+1 3 

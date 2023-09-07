@@ -39,6 +39,8 @@ int main()
 
     bfs(start);
     cout << level[end] << endl;
+
+    memset(visted, false, sizeof(visted));
     
     return 0;
 }
