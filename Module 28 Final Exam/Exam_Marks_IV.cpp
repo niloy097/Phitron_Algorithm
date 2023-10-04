@@ -10,11 +10,14 @@ int main()
         int n, marks;
         cin >> n >> marks;
         int w[n];
+        int sum = 0;
         for(int i = 0; i < n; i++)
         {
             cin >> w[i];
+            sum += w[i];
         }
-        int s = 1000 - marks;
+        // int s = 1000 - marks;
+        int s = (sum + marks)/2;
         int dp[n+1][s+1];
         dp[0][0] = 1; 
         for(int i = 1; i <= s; i++) dp[0][i] = 0;

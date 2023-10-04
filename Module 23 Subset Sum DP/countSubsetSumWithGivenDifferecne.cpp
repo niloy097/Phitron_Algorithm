@@ -1,6 +1,5 @@
 #include<bits/stdc++.h>
 using namespace std;
-//We can get target sum with this approach
 int main()
 {
     int n;
@@ -13,16 +12,7 @@ int main()
         sum += arr[i];
     }
     int diff; cin >> diff;
-    int s1 = (diff + sum)/2; // s1 = subset sum
-    // if the value of s1 is fractional the required diff
-    // is not possible such as (2 + 7)/2, diff 2 is not possible 
-    // for this input
-    /*
-        4
-        1 1 2 3
-        3
-
-    */
+    int s1 = (diff + sum)/2;
     int dp[n + 1][s1 + 1];
     dp[0][0] = 1;
     for(int i = 1; i <= s1; i++)
